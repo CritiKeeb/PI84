@@ -1,0 +1,77 @@
+{
+  "manufacturer": "CriticKeeb",
+  "keyboard_name": "PI84",
+  "maintainer": "CritiKeeb",
+  "url": "inserturlhere.com",
+  "bootloader": "rp2040",
+  "processor": "RP2040",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0001",
+    "vid": "0xBEEB"
+  },
+  "features": {
+    "bootmagic": true,
+    "mousekey": true,
+    "extrakey": true,
+    "console": false,
+    "command": true,
+    "nkro": true,
+    "backlight": false,
+    "encoder": false
+  },
+  "diode_direction": "COL2ROW",
+  "debounce": 5,
+  "matrix_pins": {
+      "cols": ["GP3", "GP2", "GP1", "GP0"],
+      "rows": ["GP15", "GP14", "GP13", "GP12", "GP11", "GP10", "GP9", "GP8"]
+  },
+  "layouts": {
+      "LAYOUT": {
+        "layout": [
+            {"label":"2nd", "x":0, "y":0},
+            {"x":1, "y":0},
+            {"label":"Up", "x":2, "y":0},
+            {"x":3, "y":0},
+
+            {"label":"Alpha", "x":0, "y":1},
+            {"label":"Left", "x":1, "y":1},
+            {"label":"Down", "x":2, "y":1},
+            {"label":"Right", "x":3, "y":1},
+
+            {"label":"F1", "x":0, "y":2},
+            {"label":"F2", "x":1, "y":2},
+            {"label":"F3", "x":2, "y":2},
+            {"label":"F4", "x":3, "y":2},
+
+            {"label":"^", "x":0, "y":3},
+            {"label":"[", "x":1, "y":3},
+            {"label":"]", "x":2, "y":3},
+            {"label":"/", "x":3, "y":3},
+
+            {"label":"7", "x":0, "y":4},
+            {"label":"8", "x":1, "y":4},
+            {"label":"9", "x":2, "y":4},
+            {"label":"*", "x":3, "y":4},
+
+            {"label":"4", "x":0, "y":5},
+            {"label":"5", "x":1, "y":5},
+            {"label":"6", "x":2, "y":5},
+            {"label":"-", "x":3, "y":5},
+
+            {"label":"1", "x":0, "y":6},
+            {"label":"2", "x":1, "y":6},
+            {"label":"3", "x":2, "y":6},
+            {"label":"+", "x":3, "y":6},
+
+            {"label":"0", "x":0, "y":7},
+            {"label":"dot", "x":1, "y":7},
+            {"label":"Alt", "x":2, "y":7},
+            {"label":"Enter", "x":3, "y":7}
+
+            ]
+            
+      }
+
+  }
+}
